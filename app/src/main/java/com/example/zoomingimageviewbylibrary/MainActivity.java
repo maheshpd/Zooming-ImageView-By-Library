@@ -1,10 +1,11 @@
 package com.example.zoomingimageviewbylibrary;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-import uk.co.senab.photoview.PhotoViewAttacher;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.github.chrisbanes.photoview.PhotoViewAttacher;
 
 public class MainActivity extends AppCompatActivity {
 ImageView imageView;
